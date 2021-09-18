@@ -6,7 +6,7 @@ function fn() {
   }
   var config = {
     env: env,
-    myVarName: 'someValue'
+    spartan_api_url: 'http://54.237.100.89:8000/api'
   }
   if (env == 'dev') {
     // customize
